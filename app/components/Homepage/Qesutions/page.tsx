@@ -57,7 +57,7 @@ const Question: React.FC = () => {
         <div className={styles.containertext}>Solutions For The Doubts</div>
         <h1 className={styles.heading}>Frequently Asked Questions</h1>
         <p className={styles.paragraph}>
-          Find all the essential information you need in our FAQ section, designed to address the most frequently asked questions and help you make informed decisions for your child's education.
+          Find all the essential information you need in our FAQ section, designed to address the most frequently asked questions and help you make informed decisions for your child&apos;s education.
         </p>
       </div>
 

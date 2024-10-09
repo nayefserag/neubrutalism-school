@@ -11,14 +11,14 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-
+import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container1}>
         <div className={styles.subcontainer1}>
           <div className={styles.subsubcontainer1}>
-            <img
+            <Image
               src="/Logos/Logo.png"
               alt="Website Logo"
               width={228.37}

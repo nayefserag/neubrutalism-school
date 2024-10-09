@@ -9,7 +9,7 @@ const Befits = () => {
           <text className={styles.text3}>Children Deserve Bright Future</text>
         </div>
         <h1 className={styles.heading}>Our Benefits</h1>
-        <div className={styles.paragraph22}>With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future.</div>
+        <div className={styles.paragraph22}>With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child&apos;s future.</div>
       </div>
 
 
@@ -87,7 +87,7 @@ const Befits = () => {
             </div>
             <div className={styles.itemText}>
                 <h4 className={styles.itemHeading}>Individualized Attention</h4>
-                <p className={styles.paragraph}>Our small class sizes enable personalized attention, catering to each child's unique needs.</p>
+                <p className={styles.paragraph}>Our small class sizes enable personalized attention, catering to each child&apos;s unique needs.</p>
             </div>
             </div>
 
