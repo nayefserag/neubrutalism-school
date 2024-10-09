@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from './page.module.css';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -72,7 +72,7 @@ const testimonialsData: Testimonial[] = [
   {
     name: '12',
     imageSrc: '/icons/Vector2.png',
-    testimonial: 'I love Little Learners Academy, and I can’t wait to share my experience with my children!',
+    testimonial: 'I love Little Learners Academy, and I can&apos;t wait to share my experience with my children!',
   }
 ];
 

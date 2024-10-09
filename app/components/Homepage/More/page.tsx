@@ -62,7 +62,7 @@ const More = () => {
             <Image src="/icons/Container.png" alt="Website Logo" width={765} height={785} />
             </div>
             <p className={styles.paragraphcontent}>
-            Learn about our Enrollment Process and how to secure your child's place at Little Learners Academy. Find information about our admission requirements, application deadlines, and available spaces.            </p>
+            Learn about our Enrollment Process and how to secure your child&apos;s place at Little Learners Academy. Find information about our admission requirements, application deadlines, and available spaces.            </p>
         </div>
         <button className={styles.button}>Learn More </button>
     </div>
