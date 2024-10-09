@@ -1,0 +1,552 @@
+.footer {
+/* Footer */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 100px 113px 40px;
+gap: 50px;
+
+position:absolute;
+width: 1820px;
+height: 711px;
+left: calc(50% - 1800px/2);
+top: calc(50% + 11600px/2);
+/* top: 6457px; */
+/* Absolute/White */
+background: #FFFFFF;
+/* Grey/15 */
+border: 2px solid #262626;
+box-shadow: 6px 6px 0px 2px #1E1E1E;
+border-radius: 12px;
+
+}
+.container1{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 80px;
+
+width: 1594px;
+height: 348px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.subcontainer1{
+/* Sub Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+width: 519px;
+height: 348px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.subcontainer2{
+    /* Sub Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 995px;
+height: 260px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+}
+
+.paragraph{
+    /* Paragraph */
+
+width: 519px;
+height: 60px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+/* Grey/30 */
+color: #4C4C4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.butonsubcontainer{
+    /* Buttons Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 519px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.buttons{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 519px;
+height: 40px;
+
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.textbutton{
+    /* Text Button */
+
+width: 469px;
+height: 30px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Grey/15 */
+color: #262626;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+}
+.subsubcontainer1{
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 519px;
+height: 130px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+.headinglink{
+    /* Heading */
+
+width: 226.25px;
+height: 30px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Grey/15 */
+color: #262626;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.divider{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 226.25px;
+height: 118px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.texts{
+    /* Text Button */
+
+width: 226.25px;
+height: 30px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.link{
+    /* Links Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 226.25px;
+height: 128px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+}
+.container2{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 1594px;
+height: 173px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.divider2{
+/* Line */
+
+width: 1594px;
+height: 0px;
+
+/* Grey/15 */
+border: 1px solid #262626;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+
+.subdivider{
+    /* Sub Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 343px;
+
+width: 1594px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.texts2{
+/* Buttons Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 413px;
+height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.normaltext{
+    /* Text Button */
+
+width: 132px;
+height: 27px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.normaltext323232{
+    /* Buttons Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 413px;
+height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.dividerhorizontal{
+/* Line */
+
+width: 27px;
+height: 0px;
+
+/* Grey/15 */
+border: 1px solid #262626;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.normaltext323232 a {
+    margin-right: 10px; /* Space between items */
+  }
+  
+  .normaltext323232 span {
+    margin: 0 10px; /* Space around the separator */
+  }
+  
+  .icon{
+    /* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+  }
+
+.texts3{
+    /* Text */
+
+width: 1594px;
+height: 27px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+
+/* Grey/40 */
+color: #656567;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.dividervertical{
+/* Buttons Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 196px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.button7{
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 10px;
+
+width: 56px;
+height: 56px;
+
+/* Orange/90 */
+background: #FFDECC;
+/* Grey/15 */
+border: 2px solid #262626;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+flex-grow: 0;
+
+}
+.divider3{
+    /* Line */
+
+width: 1594px;
+height: 0px;
+
+/* Grey/15 */
+border: 1px solid #262626;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}

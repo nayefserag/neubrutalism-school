@@ -1,0 +1,453 @@
+.container{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+width: 1592px;
+height: 782px;
+left: calc(50% - 1592px/2);
+top: 2457px;
+}
+.subcontainer{
+/* Sub Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 300px;
+gap: 19px;
+
+width: 1592px;
+height: 220px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+}
+.itemscontainer{
+    /* Items Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 50px;
+
+width: 1592px;
+height: 462px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.container1{
+
+/* Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 20px;
+gap: 10px;
+
+width: 217px;
+height: 47px;
+
+/* Absolute/White */
+background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.paragraph{
+    /* Paragraph */
+
+width: 992px;
+height: 60px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.heading{
+    /* Heading */
+
+width: 992px;
+height: 75px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 130%;
+/* or 75px */
+text-align: center;
+
+/* Grey/10 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.text{
+    /* Text */
+
+width: 177px;
+height: 27px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.buttonleft{
+    /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 14px;
+gap: 10px;
+
+width: 50px;
+height: 50px;
+
+/* Absolute/White */
+background: #FFFFFF;
+/* Grey/20 */
+border: 2px solid #333333;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.buttonright{
+    /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 14px;
+gap: 10px;
+
+width: 50px;
+height: 50px;
+
+/* Absolute/White */
+background: #FFFFFF;
+/* Grey/20 */
+border: 2px solid #333333;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+.item{
+    /* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+gap: 30px;
+
+width: 425.33px;
+height: 462px;
+
+/* Absolute/White */
+background: #FFFFFF;
+/* Grey/15 */
+border: 2px solid #262626;
+box-shadow: 6px 6px 0px 2px #1E1E1E;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+}
+
+.itemImage{
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 325.33px;
+height: 128px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.itemText{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 140px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.itemHeading{
+    /* Paragraph */
+
+width: 325.33px;
+height: 150px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+.profileImage {
+    /* Profile Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 80px;
+
+/* Orange/97 */
+background: #FFF5F0;
+/* Grey/20 */
+border: 1px solid #333333;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.name{
+    /* Name */
+
+width: 325.33px;
+height: 36px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.stars{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 140px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.texthappy{
+    /* Text */
+
+width: fit-content;
+height: 27px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+/* Add this to animate the sliding effect */
+.itemscontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 1592px;
+    height: 462px;
+    transition: transform 0.5s ease; /* Animation duration */
+    will-change: transform; /* Optimization hint for browsers */
+  }
+  
+  /* Optional: You could also make the whole item fade in */
+  .item {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+  }
+  
+  /* Hide and show items */
+  .item.hidden {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #333333;
+    padding: 5px;
+    background-color: #FFF5F0; /* Optional background color */
+  }
+  
+  .profile img {
+    border-radius: 50%; /* Ensures the image is circular */
+  }
+  
+  .profileImage {
+    border-radius: 50%; /* Ensure the image itself is circular */
+  }
+  

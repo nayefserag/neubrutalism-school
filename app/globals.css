@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f5f5dc; /* Light Mode Off-white (Cafe) */
+  --foreground: #171717; /* Darker text for light mode */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f5f5dc; /* Light text for dark mode */
   }
 }
 
@@ -24,4 +24,19 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Specific Color Variables for Light and Dark Mode */
+:root {
+  /* Light Mode with off-white or cafe background */
+  --background-color: #f5f5dc; /* Cafe-like background */
+  --text-color: #1A1A1A; /* Darker font color for light mode */
+  --paragraph-color: #4C4C4D; /* Adjust paragraph color to be darker */
+}
+
+.dark-mode {
+  /* Dark Mode */
+  --background-color: #1A1A1A; /* Dark mode background */
+  --text-color: #FFFFFF; /* White text for dark mode */
+  --paragraph-color: #CCCCCC; /* Light gray for paragraphs in dark mode */
 }

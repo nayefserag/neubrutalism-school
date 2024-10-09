@@ -1,0 +1,149 @@
+.navbar {
+    /* Navbar */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 419px;
+    
+    /* Adjust width to less than 100% to make margin work */
+    width: auto; /* Or use a specific percentage like 95% */
+    
+    height: 80px;
+    color: #000000; /* Font color set to black */
+    /* Add margin for spacing around the component */
+    margin: 10px; /* You can customize this */
+    transition: background-color 0.3s ease; /* Smooth transition for hover and active */
+    /* Absolute/White */
+    background: #FFFFFF;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    border-width: 0.5px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  
+.logoImg{
+/* shape-14 */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Grey/10 */
+background: #1A1A1A;
+mix-blend-mode: normal;
+
+
+}
+.logo{
+    /* Logo Container */
+border-radius: 12px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 24px;
+gap: 10px;
+
+width: 230.69px;
+height: 80px;
+
+/* Orange/65 */
+background: #FF8D4D;
+/* Grey/15 */
+border-width: 0px 2px;
+border-style: solid;
+border-color: #262626;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.navLinks{
+/* Buttons Container */
+background: transparent; /* Make the background transparent */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+width: 922px;
+height: 80px;
+
+/* Absolute/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+background: transparent; 
+overflow: hidden; /* Hide overflow for smoother edges */
+
+
+}
+.navItem{
+/* Button */
+overflow: hidden; /* Hide any overflow that exceeds the rounded corners */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 34px;
+gap: 10px;
+font-size: 14px;
+width: 16.67%;
+height: 80px;
+
+/* Orange/95 */
+background: #FFEFE6;
+/* Grey/15 */
+border-width:  1px;
+border-style: solid;
+border-color: #262626;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 5;
+
+
+}
+.navItem:first-child {
+    border-top-left-radius: 12px; /* Round the top left corner */
+    border-bottom-left-radius: 12px; /* Round the bottom left corner */
+    background: #FFEFE6;  
+}
+  
+  .navItem:last-child {
+    border-top-right-radius: 12px; /* Round the top right corner */
+    border-bottom-right-radius: 12px; 
+    background: #FFAE80;
+  }
+  .navItem:hover, .navItem:focus {
+    background-color: #FFEFE6; /* Background color on hover */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+.navItem:active {
+    background-color: #FFEFE6; /* Background color on click (active state) */
+}
+
+.navItem {
+    transition: background-color 0.3s ease; /* Smooth transition for hover and active */
+}

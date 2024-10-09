@@ -1,0 +1,396 @@
+.benfitscontainer{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 100px;
+
+background: transparent;
+position: absolute;
+width: 1592px;
+height: 1022px;
+left: calc(50% - 1592px/2);
+top: 1235px;
+
+
+}
+.div1{
+    /* Sub Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 300px;
+gap: 19px;
+
+width: 1592px;
+height: 220px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.div2{
+    /* Sub Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+width: 1592px;
+height: 702px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.heading{
+/* Heading */
+color: #FFFFFF;
+width: 992px;
+height: 75px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 130%;
+/* or 75px */
+text-align: center;
+
+/* Grey/10 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.paragraph{
+    /* Paragraph */
+
+width: 992px;
+height: 60px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.div3{
+/* Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 20px;
+gap: 10px;
+
+width: 287px;
+height: 47px;
+
+/* Absolute/White */
+background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.text3{
+    /* Text */
+
+width: 247px;
+height: 27px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.itemsContainer1{
+    /* Items Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 1592px;
+height: 341px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.item{
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 0px 30px;
+gap: 10px;
+
+width: 104px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -39px 0px;
+z-index: 1;
+
+}
+.itemText{
+/* Text Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 50px 50px;
+gap: 20px;
+
+width: 504px;
+height: 306px;
+
+/* Absolute/White */
+background: #FFFFFF;
+/* Grey/15 */
+border: 2px solid #262626;
+box-shadow: 6px 6px 0px 2px #1E1E1E;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+}
+.itemHeading{
+/* Heading */
+
+width: 404px;
+height: 36px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 130%;
+/* or 36px */
+
+/* Grey/10 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.paragraph{
+    /* Paragraph */
+
+width: 404px;
+height: 120px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+/* Grey/30 */
+color: #4C4C4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.itemImage{
+    /* Icon Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px;
+gap: 10px;
+
+width: 74px;
+height: 74px;
+
+/* Orange/90 */
+background: #FFDECC;
+/* Grey/15 */
+border: 2px solid #262626;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.itemBig{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 0px 30px;
+gap: 10px;
+
+width: 104px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -39px 0px;
+z-index: 1;
+
+}
+.card{
+    /* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 504px;
+height: 341px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.paragraph22{
+    /* Paragraph */
+
+width: 992px;
+height: 60px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+text-align: center;
+
+/* Grey/20 */
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+
+.benfitscontainer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.heading {
+  color: var(--text-color);
+}
+
+.paragraph {
+  color: var(--paragraph-color);
+}
+
+.text3 {
+  color: var(--paragraph-color);
+}
+
+/* Additional element color changes using the variables */
