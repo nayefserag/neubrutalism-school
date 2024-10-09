@@ -65,7 +65,7 @@ const Question: React.FC = () => {
         {/* First box of FAQs */}
         <div className={styles.boxnumber1}>
           {faqItems1.map((item, index) => (
-            <div className={`${styles.item} ${openFAQ === index ? '&apos;&apos;' : styles.collapsed}`} key={index}>
+            <div className={`${styles.item} ${openFAQ === index ? '' : styles.collapsed}`} key={index}>
               <div className={styles.itemText}>
                 <h4 className={styles.itemHeading}>
                   {item.question}
